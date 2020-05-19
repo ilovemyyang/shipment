@@ -1,0 +1,171 @@
+{
+  "createTime": "2020-05-14 00:00:00",
+  "createUser": "admin",
+  "shipmentNodeList": [
+    {
+      "adjustmentStatus": "string",
+      "createTime": "2020-05-14 00:00:00",
+      "createUser": "admin",
+      "currentQuantity": 200,
+      "floorNumber": 1,
+      "id": "1",
+      "nodeName": "string",
+      "nodeStatus": "string",
+      "proportion": 1,
+      "quantityFormula": "string",
+      "shipmentNodeParentLineDataList": [
+      ],
+      "tenantCode": "shipment",
+      "topologyId": "string",
+      "updateTime": "2020-05-14 00:00:00",
+      "updateUser": "admin",
+      "version": 1
+    },
+    {
+      "adjustmentStatus": "string",
+      "createTime": "2020-05-14 00:00:00",
+      "createUser": "admin",
+      "currentQuantity": 0,
+      "floorNumber": 2,
+      "id": "2",
+      "nodeName": "string",
+      "nodeStatus": "string",
+      "proportion": 0.2,
+      "quantityFormula": "string",
+      "shipmentNodeParentLineDataList": [
+        {
+          "createTime": "2020-05-14 00:00:00",
+          "createUser": "admin",
+          "id": "string",
+          "nodeId": "2",
+          "parentNodeId": "1",
+          "parentProportion": 0.2,
+          "tenantCode": "shipment",
+          "topologyId": "string",
+          "updateTime": "2020-05-14 00:00:00",
+          "updateUser": "admin",
+          "version": 1
+        }
+      ],
+      "tenantCode": "shipment",
+      "topologyId": "string",
+      "updateTime": "2020-05-14 00:00:00",
+      "updateUser": "admin",
+      "version": 1
+    },
+        {
+      "adjustmentStatus": "string",
+      "createTime": "2020-05-14 00:00:00",
+      "createUser": "admin",
+      "currentQuantity": 0,
+      "floorNumber": 2,
+      "id": "3",
+      "nodeName": "string",
+      "nodeStatus": "string",
+      "proportion": 0.3,
+      "quantityFormula": "string",
+      "shipmentNodeParentLineDataList": [
+        {
+          "createTime": "2020-05-14 00:00:00",
+          "createUser": "admin",
+          "id": "string",
+          "nodeId": "3",
+          "parentNodeId": "1",
+          "parentProportion": 0.3,
+          "tenantCode": "shipment",
+          "topologyId": "string",
+          "updateTime": "2020-05-14 00:00:00",
+          "updateUser": "admin",
+          "version": 1
+        }
+      ],
+      "tenantCode": "shipment",
+      "topologyId": "string",
+      "updateTime": "2020-05-14 00:00:00",
+      "updateUser": "admin",
+      "version": 1
+    },
+    {
+      "adjustmentStatus": "string",
+      "createTime": "2020-05-14 00:00:00",
+      "createUser": "admin",
+      "currentQuantity": 0,
+      "floorNumber": 2,
+      "id": "4",
+      "nodeName": "string",
+      "nodeStatus": "string",
+      "proportion": 0.5,
+      "quantityFormula": "string",
+      "shipmentNodeParentLineDataList": [
+        {
+          "createTime": "2020-05-14 00:00:00",
+          "createUser": "admin",
+          "id": "string",
+          "nodeId": "string",
+          "parentNodeId": "1",
+          "parentProportion": 0.5,
+          "tenantCode": "shipment",
+          "topologyId": "string",
+          "updateTime": "2020-05-14 00:00:00",
+          "updateUser": "admin",
+          "version": 1
+        }
+      ],
+      "tenantCode": "shipment",
+      "topologyId": "string",
+      "updateTime": "2020-05-14 00:00:00",
+      "updateUser": "admin",
+      "version": 1
+    },
+    {
+      "adjustmentStatus": "string",
+      "createTime": "2020-05-14 00:00:00",
+      "createUser": "admin",
+      "currentQuantity": 0,
+      "floorNumber": 3,
+      "id": "5",
+      "nodeName": "string",
+      "nodeStatus": "string",
+      "proportion": 1,
+      "quantityFormula": "string",
+      "shipmentNodeParentLineDataList": [
+        {
+          "createTime": "2020-05-14 00:00:00",
+          "createUser": "admin",
+          "id": "string",
+          "nodeId": "string",
+          "parentNodeId": "3",
+          "parentProportion": 1,
+          "tenantCode": "shipment",
+          "topologyId": "string",
+          "updateTime": "2020-05-14 00:00:00",
+          "updateUser": "admin",
+          "version": 1
+        },
+        {
+          "createTime": "2020-05-14 00:00:00",
+          "createUser": "admin",
+          "id": "string",
+          "nodeId": "string",
+          "parentNodeId": "4",
+          "parentProportion": 1,
+          "tenantCode": "shipment",
+          "topologyId": "string",
+          "updateTime": "2020-05-14 00:00:00",
+          "updateUser": "admin",
+          "version": 1
+        }
+      ],
+      "tenantCode": "shipment",
+      "topologyId": "string",
+      "updateTime": "2020-05-14 00:00:00",
+      "updateUser": "admin",
+      "version": 1
+    }
+  ],
+  "tenantCode": "shipment",
+  "topologyId": "string",
+  "updateTime": "2020-05-14 00:00:00",
+  "updateUser": "admin",
+  "version": 1
+}

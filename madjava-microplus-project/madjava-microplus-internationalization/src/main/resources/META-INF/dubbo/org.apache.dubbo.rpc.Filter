@@ -1,0 +1,2 @@
+providerLanguageFilter=com.madjava.micro.filter.ProviderLanguageFilter
+consumerLanguageFilter=com.madjava.micro.filter.ConsumerLanguageFilter
