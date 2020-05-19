@@ -1,1 +1,0 @@
-select 1 from t_shipment_node limit 1
