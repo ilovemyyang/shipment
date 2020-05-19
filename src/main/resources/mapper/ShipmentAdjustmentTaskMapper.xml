@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.madjava.micro.mapper.ShipmentAdjustmentTaskMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.madjava.micro.model.shipment.ShipmentAdjustmentTaskModel" id="shipmentAdjustmentTaskMap">
+        <result property="id" column="id"/>
+        <result property="topologyId" column="topology_id"/>
+        <result property="taskStatus" column="task_status"/>
+        <result property="adjustmentQuantity" column="adjustment_quantity"/>
+        <result property="currentQuantity" column="current_quantity"/>
+        <result property="tenantCode" column="tenant_code"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="createUser" column="create_user"/>
+        <result property="updateUser" column="update_user"/>
+        <result property="deleted" column="deleted"/>
+        <result property="version" column="version"/>
+    </resultMap>
+
+
+</mapper>

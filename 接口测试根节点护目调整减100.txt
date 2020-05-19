@@ -1,0 +1,11 @@
+{
+  "adjustmentQuantity": -100,
+  "createTime": "2020-05-14 00:00:00",
+  "createUser": "admin",
+  "currentQuantity": 300,
+  "tenantCode": "shipment",
+  "topologyId": "469283459553153024",
+  "updateTime": "2020-05-14 00:00:00",
+  "updateUser": "admin",
+  "version": 1
+}
