@@ -26,6 +26,6 @@
     <update id="adjustNodeQuantity">
 	    update t_shipment_node 
 	    set current_quantity = current_quantity + (${adjustmentQuantity})
-	    where id = #{id,jdbcType=VARCHAR}
+	    where id = #{id,jdbcType=VARCHAR} and deleted = 0
   	</update>
 </mapper>
